@@ -1,0 +1,746 @@
+﻿MS_26_GMAP_01
+
+[Scene=GMAP会話]$O3$G델브레성을 구하러 간 아이크 일행은[Pause=3]
+크리미아 유신들과의 [Pause=2]합류에 성공한다.[A][ClearBox]이것으로 [Pause=2]아이크 일행의 크리미아군은[Pause=3]
+명실상부하게 크리미아를 짊어지는[Pause=2]
+최대의 군이 된 것이다.[A][ClearBox]한편, [Pause=3]아이크 휘하 [Pause=2]크리미아군의 용맹한 싸움으로,[Pause=3]
+갈리아 왕국도 [Pause=2]드디어 움직이기 시작하여[Pause=3]
+지원 부대를 [Pause=2]구 크리미아 왕국에 파견했다.[A][ClearBox]$Ub$H단련된 [Pause=2]수아족 전사들은[Pause=3]
+크리미아 남쪽에 펼쳐진[Pause=2]
+$Ub$H험난한 마레하우트 산악 지대를 돌파하고,[A][ClearBox]데인군의 틈을 노려[Pause=2]
+크리미아군을 향해 움직이고 있었다.[A][ClearBox]갈리아가 [Pause=2]일어선다――[A][ClearBox]아이크 일행은 [Pause=3]그 보고를 듣고[Pause=2]
+그들과 합류하기 위해서 [Pause=3]급히 군을 움직였다.[A][X]
+
+MS_26_GMAP_02
+
+[Scene=背景なし会話][F_Target=2][LoadPortrait_L=ANNA][F_Target=2][ClearBox]이 메시지는 삭제되었습니다.[A][X]
+
+MS_26_GMAP_03
+
+[Scene=背景なし会話][F_Target=2][LoadPortrait_L=ANNA][F_Target=2][ClearBox]이 메시지는 삭제되었습니다.[A][X]
+
+MS_26_OP_01
+
+[Fade=0750][Scene=背景会話][LoadBackground=城内-ラグズ-昼][Trigger][F_Target=1][LoadPortrait_L=LEARNE][F_Target=8][LoadPortrait_L=DUMMY][F_Target=8][ClearBox]리아네[FreezeMouth]![UnfreezeMouth][Pause=4]
+잠시 실례하마.[A][ClearBox][F_Target=8][FaceCommand=D]
+[F_Target=1][ClearBox][FaceCommand=S]#F01$O2Tibarnnim!#F02$O1[A]
+[F_Target=3][FaceCommand=S][F_Target=3][LoadPortrait_L=TIBARN][F_Target=3][ClearBox]몸 상태는 어떻지?[A]
+[F_Target=1][ClearBox]#F01$O2Oneureun mucheok[Pause=3] nalssiga joaseo#F02$O1
+#F01$O2gibuni joayo.#F02$O1[A]
+[F_Target=3][ClearBox]그래, [Pause=2]확실히 [Pause=2]날씨가 좋군.[A]
+[F_Target=1][ClearBox]#F01$O2Bada naemsaedo#F02$O1[Pause=2]
+#F01$O2iksukaejyeotgoyo.#F02$O1[A]
+[F_Target=3][ClearBox]그런가, [Pause=2]조금은 여기에 적응한 것 같군.[A][ClearBox][FaceCommand=A]그래서, [Pause=2]로라이제님의 상태는 어떻지?[A]
+[F_Target=1][ClearBox][FaceCommand=A][FaceCommand=c]#F01$O2[FreezeMouth]...[UnfreezeMouth]Byeonhaji anasseoyo[FreezeMouth]......[UnfreezeMouth]#F02$O1[A]
+[F_Target=3][ClearBox][FaceCommand=S][FreezeMouth]…[UnfreezeMouth]뭐, [Pause=2]천천히 해 보자고.[A]
+[F_Target=1][ClearBox][FaceCommand=d][FaceCommand=S]#F01$O2[FreezeMouth]...[UnfreezeMouth]Ne!#F02$O1[A]
+[F_Target=4][LoadPortrait_L=LOTZ][F_Target=4][ClearBox][FreezeMouth]……[UnfreezeMouth]왕께서는[Pause=2]
+백로공주님이 뭐라고 말하는 건지[Pause=2]
+알아들으시는 건가요?[A]
+[F_Target=3][ClearBox][FaceCommand=A]응?[Pause=4] 아아[FreezeMouth]…[UnfreezeMouth][Pause=3]
+막연히 [Pause=2]말이지.[A][ClearBox][FaceCommand=S]그런가, [Pause=2]롯츠[Pause=3]
+너는 모르겠군.[A][ClearBox]뤼시온도[Pause=2]
+여기에 막 왔을 때는
+똑같은 상태였다.[A][ClearBox]지금은 [Pause=2]유창하게 현대어를
+말할 수 있지만.[A]
+[F_Target=4][ClearBox][FaceCommand=S]그러고 보니 [Pause=2]화나셨을 때였나?[Pause=2]
+알 수 없는 단어를 사용하시기도 했고[FreezeMouth]…[UnfreezeMouth][A][ClearBox]근데 [Pause=2]방금 온 편지는[Pause=2]
+보통 문자로 쓰여 있지 않았나요?[A]
+[F_Target=3][ClearBox]이 20년간 [Pause=2]제대로
+현대어도 평범하게[FreezeMouth]…[UnfreezeMouth][Pause=3][FaceCommand=A]가 아니라,[Pause=2]
+너 [Pause=2]훔쳐본 거냐?[A]
+[F_Target=4][ClearBox][FaceCommand=A]죄, [Pause=2]죄송합니다[FreezeMouth]![UnfreezeMouth][Pause=4]
+왕께서 손에 들고 계신 것이[Pause=2]
+살짝 보여서[FreezeMouth]…[UnfreezeMouth][FreezeMouth]!![UnfreezeMouth][A]
+[F_Target=3][ClearBox]너 말이지[FreezeMouth]…[UnfreezeMouth][A]
+[F_Target=1][ClearBox][FaceCommand=A]#F01$O2Pyeonji?[Pause=4] Orabeoniui!?#F02$O1[A]
+[F_Target=3][ClearBox]응?[Pause=4][FaceCommand=S] 아아, [Pause=2]그래.[Pause=4]
+뤼시온이 보낸 편지다.[A][ClearBox]크리미아군이 [Pause=2]데인 왕국을 빠져나가[Pause=3]
+무사히 [Pause=2]조국으로 향한 모양이더군.[A]
+[F_Target=1][ClearBox][FaceCommand=S]#F01$O2Dahaengida!#F02$O1[Pause=4]
+#F01$O2Geonganghasin [Pause=2]geojyo?#F02$O1[A]
+[F_Target=3][ClearBox][FaceCommand=A][FreezeMouth]…[UnfreezeMouth]그렇지만 [Pause=2]뭔가 있는 모양인걸.[Pause=4]
+자세히 쓰여 있진 않지만[FreezeMouth]…[UnfreezeMouth][A][ClearBox]페니키스에서도[Pause=2]
+원군을 보내 줬으면 한다고 적혀 있었다.[A]
+[F_Target=4][ClearBox]그 뤼시온님께서[Pause=2]
+그런 말씀을 하시다니[FreezeMouth]…[UnfreezeMouth][Pause=4]
+상당히 [Pause=2]심각한 상황일지도 모르겠어요.[A]
+[F_Target=3][ClearBox]당장이라도 가고 싶지만,[Pause=2]
+로라이제님과 [Pause=2]리아네를
+두고 갈 수도 없고[FreezeMouth]…[UnfreezeMouth][A]
+[F_Target=1][ClearBox][FaceCommand=A]#F01$O2Jeodo [Pause=2]galgeyo!#F02$O1[A]
+[F_Target=3][ClearBox]아니, [Pause=2]안 된다.[A]
+[F_Target=1][ClearBox]#F01$O2Geuchiman[FreezeMouth]...[UnfreezeMouth]!#F02$O1[A]
+[F_Target=3][ClearBox][FreezeMouth]……[UnfreezeMouth]그런 얼굴로 쳐다봐도[Pause=2]
+절대로 [Pause=2]같이 데려가지는 않을 거다.[A]
+[F_Target=4][ClearBox]그야 [Pause=2]무리니까요.[A]
+[F_Target=1][ClearBox]#F01$O2[FreezeMouth]......[UnfreezeMouth][Pause=2]Neomuhae[FreezeMouth]...[UnfreezeMouth]#F02$O1[A]
+[F_Target=3][ClearBox][FreezeMouth]…[UnfreezeMouth]전부터 생각해 둔 계획을
+실행에 옮겨야겠군.[A]
+[F_Target=4][ClearBox]뭔가요?[A]
+[F_Target=1][ClearBox]#F01$O2Gyehoek?#F02$O1[A]
+[Fade=0600][X]
+
+MS_26_OP_02
+
+[Scene=背景会話][LoadBackground=城内-ラグズ-昼][Trigger][F_Target=1][LoadPortrait_L=LOTZ][F_Target=3][LoadPortrait_L=TIBARN][F_Target=3][ClearBox][FreezeMouth]…[UnfreezeMouth]그럼 [Pause=2]
+우선 갈리아로 가서 [Pause=2]
+얘기를 해 두도록 하지.[A][ClearBox]롯츠, [Pause=2]너는
+리아네랑 로라이제님을 경호하면서[Pause=2]
+여행 준비를 도와라.[A]
+[F_Target=1][ClearBox][FaceCommand=S]알겠습니다[FreezeMouth]![UnfreezeMouth][A]
+[Fade=1000][X]
+
+MS_26_OP_03
+
+[Scene=背景会話][LoadBackground=倉庫][Trigger][F_Target=3][LoadPortrait_L=LOTZ][F_Target=1][FaceCommand=S][F_Target=1][LoadPortrait_L=LEARNE][F_Target=1][ClearBox]#F01$O2Geu cheoneun, [Pause=3]ijjogeuro jwo.#F02$O1[A]
+[F_Target=3][ClearBox]그게, [Pause=2]저,[Pause=4]
+뭐라고 말씀하시는 건지[Pause=2]
+모르겠는데[FreezeMouth]…[UnfreezeMouth][A]
+[F_Target=1][ClearBox][FaceCommand=A]#F01$O2Igeol, [Pause=2]yeogie neoeo jwo.#F02$O1[A]
+[F_Target=3][ClearBox][FaceCommand=S]아, [Pause=2]혹시[Pause=2]
+이걸[FreezeMouth]…[UnfreezeMouth][Pause=4] 이 주머니에?[A]
+[F_Target=1][ClearBox][FaceCommand=S]#F01$O2Eung [Pause=2]Maja.#F02$O1[A]
+[F_Target=3][ClearBox]알겠습니다[FreezeMouth]![UnfreezeMouth][Pause=4]
+잔뜩 채워 넣을게요[FreezeMouth]![UnfreezeMouth][A]
+$Ub$H[F_Target=1][ClearBox][FaceCommand=A]#F01$O2!#F02$O1[A]
+[F_Target=3][ClearBox][FreezeMouth]……[UnfreezeMouth]어라?[Pause=4]
+왜 그러시나요?[A]
+[F_Target=1][ClearBox]#F01$O2!! Nugu!?#F02$O1[A]
+[F_Target=3][ClearBox][FreezeMouth]…[UnfreezeMouth]제 뒤에[Pause=3]
+대체 뭐가[FreezeMouth]……[UnfreezeMouth][A][ClearBox]$Ub$H[FaceCommand=A]크하악[FreezeMouth]!!![UnfreezeMouth][Pause=4][F_Target=3][FaceCommand=D]
+[F_Target=1][ClearBox]#F01$O2Lotz!#F02$O1[Pause=5]
+#F01$O2Sireo![Pause=4] igeo nwa!!#F02$O1[A]
+$Ub$H[F_Target=4][LoadPortrait_L=DARKKNIGHT][F_Target=4][ClearBox]날뛰지 마라.[Pause=4]
+[FreezeMouth]……[UnfreezeMouth][Pause=2]부왕이 죽어도 괜찮나?[A]
+[F_Target=1][ClearBox]#F01$O2[FreezeMouth]...[UnfreezeMouth]Orabeoni[FreezeMouth]......[UnfreezeMouth]#F02$O1[A][Fade=1200][X]
+
+MS_26_OP_04
+
+[Scene=背景会話][LoadBackground=王宮-クリミア][Trigger][F_Target=4][LoadPortrait_L=DARKKNIGHT][F_Target=0][FaceCommand=S][F_Target=0][LoadPortrait_L=ASHNARD][F_Target=0][ClearBox][FreezeMouth]……[UnfreezeMouth]돌아왔나.[A]
+[F_Target=4][ClearBox]드디어 [Pause=2]바라시던 것을
+손에 넣었습니다.[A]
+[F_Target=0][ClearBox]보여라.[A]
+[F_Target=4][ClearBox]이것을.[A][X]
+
+MS_26_OP_05
+
+[Scene=背景会話][LoadBackground=王宮-クリミア][Trigger][F_Target=4][LoadPortrait_L=DARKKNIGHT][F_Target=0][LoadPortrait_L=ASHNARD][F_Target=0][ClearBox][FreezeMouth]……[UnfreezeMouth]백로 왕족은
+죄다 똑같아 보이는군.[A][ClearBox]피가 진해서인지[Pause=2]
+섬뜩할 정도로[Pause=2]
+아주 닮았어.[A]
+[F_Target=4][ClearBox][FreezeMouth]…[UnfreezeMouth]확실히 [Pause=2]전에도
+기른 적이 있다고 하셨던가요?[A]
+[F_Target=0][ClearBox]메달리온의 사신을
+해방시키려고 했지만[A][ClearBox]뭘 하기도 전에 죽어 버리더군.[Pause=4]
+정말이지 약해 빠진 생물이다.[A]
+[F_Target=4][ClearBox]이번에는 조금 신경 써서
+다뤄 주셨으면 합니다만[FreezeMouth]…[UnfreezeMouth][A][ClearBox]이것을 손에 넣는 데에 꽤
+고생을 했으니 말이지요[FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=0][ClearBox]너치고는 확실히 시간이 걸렸군.[A]
+[F_Target=4][ClearBox]역시 [Pause=2]응왕의 눈을
+피하는 것은 어려워서[FreezeMouth]……[UnfreezeMouth][Pause=4]
+몇 번이나 왕복하게 되었습니다.[A]
+[F_Target=0][ClearBox][FaceCommand=S]크크크, [Pause=2]그 이상한 가루로
+이동할 수 있으면서[Pause=2]
+고생한 것처럼 말하지 마라.[A]
+[F_Target=4][ClearBox][FreezeMouth]……[UnfreezeMouth]그것은 [Pause=2]사용할 때마다
+체력을 빼앗깁니다.[A][ClearBox]어지간한 일이 아니면[Pause=2]
+사용하고 싶지 않을 정도로[FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=0][ClearBox][FreezeMouth]…[UnfreezeMouth]너는 알 수 없는 남자다.[Pause=4]
+어디서 얻은 건지[Pause=2]
+수상쩍은 것들만 사용하는군.[A]
+[F_Target=4][ClearBox][FreezeMouth]…[UnfreezeMouth]왕께 헌상한 [Pause=2]그 갑옷[FreezeMouth]…[UnfreezeMouth][Pause=4]
+마음에 들지 않으십니까?[A]
+[F_Target=0][ClearBox]아니, [Pause=2]이건 마음에 든다.[A][ClearBox]내 비룡 라자이온과
+이 적의 공격을 무효화하는 갑옷[FreezeMouth]…[UnfreezeMouth][A][ClearBox]어느 쪽도 나와 무척 어울리지.[Pause=4]
+나에게 상응하는 것이다.[A][ClearBox][FreezeMouth]…[UnfreezeMouth]메달리온과
+주가 사용자도 마찬가지.[Pause=4]
+나의 소유물이 되어야 하는 것들이다.[A]
+[F_Target=4][ClearBox][FreezeMouth]…[UnfreezeMouth]사신의 부활은 [Pause=2]머지 않은 겁니까?[A]
+[F_Target=0][ClearBox][FreezeMouth]……[UnfreezeMouth]글쎄 어떨까.[A][ClearBox]나에게 있어
+지금 상황은 나쁘지 않다.[Pause=4]
+하지만 [Pause=2]그게 언제까지 이어질지는[FreezeMouth]……[UnfreezeMouth][A][ClearBox]크크크크,[Pause=4] 손에 말을 갖춰 둔다면
+어떻게든 된다는 것이다.[A]
+[Fade=1000][X]
+
+MS_26_OP_06
+
+[Scene=背景会話][LoadBackground=倉庫][Trigger][F_Target=3][LoadPortrait_L=TIBARN][F_Target=3][ClearBox][FreezeMouth]………[UnfreezeMouth][Pause=4]
+이건, [Pause=2]어떻게 된 거지?[Pause=4]
+대체 무슨 일이 있었던 거냐[FreezeMouth]!?[UnfreezeMouth][A]
+[F_Target=1][FaceCommand=h][F_Target=1][LoadPortrait_L=LOTZ][F_Target=1][ClearBox][FreezeMouth]…[UnfreezeMouth]와[FreezeMouth]…[UnfreezeMouth][Pause=4]왕[FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=3][ClearBox]롯츠[FreezeMouth]![UnfreezeMouth][Pause=4]
+정신 차려라[FreezeMouth]!![UnfreezeMouth][A]
+[F_Target=1][ClearBox][FaceCommand=c][FreezeMouth]…[UnfreezeMouth]죄송[FreezeMouth]…[UnfreezeMouth][Pause=4]합니[FreezeMouth]…[UnfreezeMouth][Pause=4]다[FreezeMouth]…[UnfreezeMouth][Pause=4]
+[FreezeMouth]……[UnfreezeMouth]공주님[FreezeMouth]…[UnfreezeMouth][Pause=4]이[Pause=4][FreezeMouth]…………[UnfreezeMouth][A]
+[F_Target=3][ClearBox]누구지[FreezeMouth]!?[UnfreezeMouth][Pause=4]
+대체 누가
+널 이런 꼴로 만든 거냐[FreezeMouth]!?[UnfreezeMouth][A]
+[F_Target=1][ClearBox][FaceCommand=h][FreezeMouth]……[UnfreezeMouth]윽, 검은 갑옷의[FreezeMouth]……[UnfreezeMouth][Pause=4]
+[FreezeMouth]…[UnfreezeMouth]기사가[FreezeMouth]…[UnfreezeMouth][FaceCommand=c][Pause=4] 커[FreezeMouth]…[UnfreezeMouth][Pause=4]헉[FreezeMouth]…[UnfreezeMouth][A][F_Target=1][FaceCommand=D]
+[F_Target=3][ClearBox]롯츠[FreezeMouth]!![UnfreezeMouth][A][ClearBox][FreezeMouth]…………[UnfreezeMouth]잘도 이런 짓을.[A]
+네놈들이 [Pause=2]그럴 생각이라면[FreezeMouth]…[UnfreezeMouth][Pause=4]
+나도 가만히 있진 않겠다[FreezeMouth]![UnfreezeMouth][A]
+[Fade=1100][X]
+
+MS_26_BASE_O
+
+[Scene=背景なし会話][F_Target=2][LoadPortrait_L=ANNA][F_Target=2][ClearBox]이 메시지는 삭제되었습니다.[A][X]
+
+MS_26_BASE_E
+
+[Scene=背景なし会話][F_Target=2][LoadPortrait_L=ANNA][F_Target=2][ClearBox]이 메시지는 삭제되었습니다.[A][X]
+
+MS_26_OP_07
+
+[Fade=1000][Scene=背景会話][LoadBackground=山裾-昼][Trigger][F_Target=1][FaceCommand=S][F_Target=1][LoadPortrait_L=LAY][F_Target=3][LoadPortrait_L=IKE2][F_Target=3][ClearBox]라이[FreezeMouth]![UnfreezeMouth][Pause=4]
+갈리아군이 있는 곳은 [Pause=2]어디야?[A]
+[F_Target=1][ClearBox]저 산을 넘으면 있을 거야.[A]
+[F_Target=3][ClearBox][FreezeMouth]…[UnfreezeMouth]드디어 합류할 수 있겠어.[A]
+[F_Target=1][ClearBox]데인군도 아슈나드가 있는
+왕도에 병력을 결집해 가고 있는 것 같더라고.[Pause=4]
+이쪽도 질 수는 없지.[A]
+[F_Target=4][LoadPortrait_L=SENERIO][F_Target=4][ClearBox]아이크[FreezeMouth]![UnfreezeMouth][Pause=4]
+눈앞에 있는 산에 [Pause=2]적군이
+매복해 있다는 정보가[FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=3][ClearBox]저 산을 넘지 않고 우회한다면[FreezeMouth]…[UnfreezeMouth][Pause=4]
+얼마나 시간을 잃게 되는 거지?[A]
+[F_Target=4][ClearBox][FreezeMouth]…[UnfreezeMouth]아마도 [Pause=2]반나절 이상입니다.[A]
+[F_Target=3][ClearBox]그럼 [Pause=2]돌파해서 나아갈 수밖에 없겠어.[A]
+[F_Target=1][ClearBox][FaceCommand=A][F_Target=4][ClearBox]네.[A]
+[F_Target=1][ClearBox][FreezeMouth]……[UnfreezeMouth]보통 조금은
+고민하는 게 [Pause=2]정상 아냐?[A][Fade=0750][X]
+
+MS_26_OP_08
+
+[Scene=上下会話][Face='DAYNE3' Pos='0'][S_Target=0]적이 근처까지 왔습니다.[A]
+[Face='GURORMERU' Pos='1'][S_Target=1]알았나, [Pause=2]가능한 만큼
+끌어들인 후에 돌을 떨어뜨리는 거다.[A]
+적이 [Pause=2]갈리아 반수 놈들과
+합류하지 못하게 해라[FreezeMouth]![UnfreezeMouth][A][X]
+
+MS_26_OP_09
+
+[Scene=上下会話][Face='TIAMAT' Pos='1'][S_Target=1]아무래도[FreezeMouth]…[UnfreezeMouth] 적은 산 위에 있나 보네.[Pause=4]
+이번엔 [Pause=2]어떤 책략을
+사용할 생각이지?[A]
+[Face='IKE2' Pos='0'][S_Target=0]아무리 봐도 이상한 바위들이 있어.[Pause=4]
+저걸 떨어뜨릴 생각인가?[A]
+[ClearTarget=1][Face='SENERIO' Pos='1'][S_Target=1]언뜻 보기엔 단순한 함정이지만[FreezeMouth]…[UnfreezeMouth][Pause=4]
+이 좁은 산길에서는[Pause=2]
+피할 수 없겠죠[FreezeMouth]……[UnfreezeMouth][A]
+[FreezeMouth]……[UnfreezeMouth]의외로 [Pause=2]효과가 큰 방법입니다.[A]
+[S_Target=0]그럼[FreezeMouth]…[UnfreezeMouth][Pause=4]
+[S_Target=3][FaceCommand=S][Face='LAY' Pos='3'][S_Target=3]『재빨리 뛰어 올라간 후
+ 적장을 격파하자[FreezeMouth]![UnfreezeMouth]』[Pause=2]인가?[A]
+[S_Target=0][FreezeMouth]…[UnfreezeMouth]그렇지.[Pause=3]
+잘 알아차렸는걸.[A]
+[S_Target=3][FaceCommand=h]그야 [Pause=2]뭐[FreezeMouth]…[UnfreezeMouth][A][ClearTarget=3]
+[S_Target=1][FreezeMouth]………[UnfreezeMouth]그래도 확실히[FreezeMouth]…[UnfreezeMouth][Pause=2]
+그게 최상의 책략입니다.[A][ClearBox][FreezeMouth]…[UnfreezeMouth]되도록 낙석을 피하면서
+단숨에 산을 올라가[FreezeMouth]……[UnfreezeMouth][Pause=4]
+적장을 격파하죠.[A]
+[S_Target=0]좋아, [Pause=2]진격하자[FreezeMouth]![UnfreezeMouth][A][X]
+
+MS_26_BT
+
+[Scene=上下会話][Face='GURORMERU' Pos='0'][S_Target=0]음, [Pause=2]여기까지 올라온 건가[FreezeMouth]![UnfreezeMouth][Pause=4]
+그렇다면 이쪽에서 떨어뜨려 주마[FreezeMouth]![UnfreezeMouth][A][X]
+
+MS_26_BT_IKE
+
+[Scene=上下会話][Face='GURORMERU' Pos='0'][S_Target=0]이 군이 매복하는 것을 알면서도[Pause=2]
+정면 돌파를 강행할 줄이야[FreezeMouth]……[UnfreezeMouth][A]
+우리들을 얕본 것을 [Pause=2]후회하게 해 주마[FreezeMouth]![UnfreezeMouth][A]
+[Face='IKE2' Pos='1'][S_Target=1]미안하지만[FreezeMouth]…[UnfreezeMouth][Pause=2] 여태까지
+그런 후회는 [Pause=2]해 본 적이 없거든.[A][X]
+
+MS_26_BT_R1
+
+[Scene=上下会話][Face='GURORMERU' Pos='0'][S_Target=0]반수라고[FreezeMouth]!?[UnfreezeMouth][Pause=4]
+설마 벌써 갈리아와 합류를[FreezeMouth]……[UnfreezeMouth][A][ClearBox]아니, 그럴 리 없다.[Pause=4]
+승기는 [Pause=2]아직
+남아 있을 터[FreezeMouth]![UnfreezeMouth][A][X]
+
+MS_26_BT_R2
+
+[Scene=上下会話][Face='GURORMERU' Pos='0'][S_Target=0]성가신 새 놈들[FreezeMouth]![UnfreezeMouth][A]
+간단히 산을 올라오다니[FreezeMouth]……[UnfreezeMouth][Pause=5]
+그렇다면 그 날개를 꺾어서[Pause=2]
+계곡으로 던져 주마[FreezeMouth]![UnfreezeMouth][A][X]
+
+MS_26_BT_R3
+
+[Scene=上下会話][Face='GURORMERU' Pos='0'][S_Target=0]데인군의 수치[FreezeMouth]![UnfreezeMouth][Pause=4]
+네놈이 데인에게 씌운 오명을[FreezeMouth]…[UnfreezeMouth][Pause=4]
+여기서 그 목숨과 함께 지워 주마[FreezeMouth]![UnfreezeMouth][A][X]
+
+MS_26_BT_R4
+
+[Scene=上下会話][Face='GURORMERU' Pos='0'][S_Target=0][FreezeMouth]…[UnfreezeMouth]네놈, [Pause=2]시하람 부대에 있던 자인가.[Pause=4]
+두 번씩이나 나라를 배신하다니[FreezeMouth]…[UnfreezeMouth][Pause=4]
+경멸하지 않을 수 없군.[A][X]
+
+MS_26_BT_R5
+
+[Scene=上下会話][Face='GURORMERU' Pos='0'][S_Target=0]흥,[Pause=4] 너는 [Pause=2]시하람의 딸인가[FreezeMouth]![UnfreezeMouth][A]
+아버지랑 똑같이[FreezeMouth]…[UnfreezeMouth][Pause=2] 비룡을 다루는 것은 능숙해도[Pause=2]
+기사로서의 충성심은
+없나 보군[FreezeMouth]!?[UnfreezeMouth][A][X]
+
+MS_26_BT_R6
+
+[Scene=上下会話][Face='GURORMERU' Pos='0'][S_Target=0]베그니온의 성천마 기사단인가[FreezeMouth]![UnfreezeMouth][Pause=4]
+데인의 비행 전술이[FreezeMouth]…[UnfreezeMouth][Pause=3] 언제까지고[Pause=2]
+베그니온보다 열등할 거라 생각하지 마라[FreezeMouth]![UnfreezeMouth][A][X]
+
+MS_26_BT_RYU
+
+[Scene=上下会話][Face='GURORMERU' Pos='0'][S_Target=0]이놈도 새인가[FreezeMouth]……?[UnfreezeMouth][Pause=4]
+하지만[FreezeMouth]…[UnfreezeMouth][Pause=2] 이 얼마나 아름다운 자인가[FreezeMouth]……[UnfreezeMouth][Pause=4]
+이 세상의 것이라 생각되지 않는군.[A][ClearBox]역시 반수라는 것들은 [Pause=2]마물인 건가[FreezeMouth]![UnfreezeMouth][A][X]
+
+MS_26_DIE
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='GURORMERU' Pos='0'][S_Target=0]후후[FreezeMouth]……[UnfreezeMouth][Pause=3] 하하하[FreezeMouth]……[UnfreezeMouth][Pause=4]
+약자가 아무리 모여 봤자[Pause=2]
+뭘 할 수 있다는 거냐[FreezeMouth]……[UnfreezeMouth][A][ClearBox]이 지상에 살아 있는 그 누구도[Pause=2]
+폐하의 적수는 되지 못하는데[FreezeMouth]……[UnfreezeMouth][A][X]
+
+MS_26_ED_01
+
+[Scene=上下会話][Face='IKE2' Pos='1'][S_Target=1][FreezeMouth]…[UnfreezeMouth]적은 이걸로 끝인가?[A]
+[Face='LAY' Pos='3'][S_Target=3]밑에서 봤었을 때는 좀 더
+많이 있었던 것 같은데[FreezeMouth]…[UnfreezeMouth][A][X]
+
+MS_26_ED_01_2
+
+[Scene=上下会話][Face='DAYNE2' Pos='0'][S_Target=0]걸렸다[FreezeMouth]![UnfreezeMouth][Pause=4] 받아라[FreezeMouth]!![UnfreezeMouth][A][X]
+
+MS_26_ED_02
+
+[Scene=上下会話][Face='ERINCIA' Pos='3'][S_Target=3]꺄악[FreezeMouth]![UnfreezeMouth][A]
+[Face='IKE2' Pos='1'][S_Target=1]위인가[FreezeMouth]!?[UnfreezeMouth][A][ClearTarget=3][X]
+
+MS_26_ED_02_2
+
+[Scene=背景会話][LoadBackground=山裾-昼][Trigger][F_Target=0][FaceCommand=S][F_Target=0][LoadPortrait_L=TIBARN][F_Target=3][LoadPortrait_L=IKE2][F_Target=0][ClearBox]괜찮나[FreezeMouth]![UnfreezeMouth][A]
+[F_Target=4][FaceCommand=S][F_Target=4][LoadPortrait_L=RIEUSION][F_Target=4][ClearBox]티반[FreezeMouth]![UnfreezeMouth][Pause=4]
+와 주셨군요[FreezeMouth]!?[UnfreezeMouth][A]
+[F_Target=0][ClearBox]잘 지냈나, [Pause=2]뤼시온.[A][ClearBox]그리고[FreezeMouth]…[UnfreezeMouth][Pause=4]
+크리미아군 모두도.[A]
+[F_Target=3][ClearBox]어째서 [Pause=2]여기에?[A]
+[F_Target=0][ClearBox]데인 토벌에
+가세할까 싶어서 말이지.[A]
+[F_Target=3][ClearBox]그건 환영할 일이지만[FreezeMouth]……[UnfreezeMouth][Pause=4]
+무슨 일이 [Pause=2]있었던 거야?[A]
+[F_Target=4][ClearBox]내가 부탁했다.[A][ClearBox][FaceCommand=A][FreezeMouth]…[UnfreezeMouth]데인 왕을
+확실하게 쓰러뜨리기 위해서라도[FreezeMouth]……[UnfreezeMouth][Pause=4]
+믿음직한 전력은 많은 편이 좋잖아?[A]
+[F_Target=3][ClearBox]그렇구나.[A]
+[F_Target=0][ClearBox][FaceCommand=A]뤼시온에게 부탁받은 것도 
+있지만[FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=4][ClearBox][FreezeMouth]…?[UnfreezeMouth][A]
+[F_Target=0][ClearBox][FaceCommand=S][FreezeMouth]…[UnfreezeMouth]우선 [Pause=2]사자왕과
+합류하고 나서 계속하지.[Pause=4]
+산기슭에서 기다리고 있으니.[A]
+[F_Target=3][ClearBox]알았어.[Pause=4]
+모두들, [Pause=2]여기서 쉬지 말고
+단숨에 산을 내려가자.[A]
+[Fade=1000][X]
+
+MS_26_ED_02_3
+
+[Scene=背景会話][LoadBackground=天幕個人用-昼][Trigger][F_Target=0][FaceCommand=S][F_Target=0][LoadPortrait_L=CAINEGHIS][F_Target=3][FaceCommand=S][F_Target=3][LoadPortrait_L=ERINCIA][F_Target=3][ClearBox]카이네기스님[FreezeMouth]…[UnfreezeMouth][Pause=4]
+오랜만에 뵙습니다.[A]
+[F_Target=0][ClearBox]우선 축사부터 하도록 하지.[Pause=4]
+개선을 축하하네, [Pause=2]엘린시아 공주.[A]
+[F_Target=3][ClearBox]감사합니다.[A][ClearBox]앞으로 [Pause=2]갈리아 왕국와 함께 
+싸울 수 있다고 듣고[FreezeMouth]…[UnfreezeMouth][Pause=4] 무척 든든하다고 생각했어요.[Pause=2]
+재차 [Pause=2]감사드립니다.[A]
+[F_Target=0][ClearBox]이 단기간에 [Pause=2]용케 여기까지
+전황을 뒤집을 수 있었군[FreezeMouth]…[UnfreezeMouth][Pause=4]
+솔직히, [Pause=2]전혀 예상하지 못했다.[A]
+[F_Target=3][ClearBox]혼자였다면[FreezeMouth]…[UnfreezeMouth][Pause=4] 여기까지 올 수 없었을 거예요.[A][ClearBox]아이크님과 용병단분들[FreezeMouth]……[UnfreezeMouth][Pause=4]
+많은 분들께서 힘을 빌려주셔서[Pause=2]
+이렇게 고향에 돌아올 수 있었습니다.[A]
+[F_Target=0][ClearBox][FaceCommand=A]음, [Pause=2]보고는 대부분 들었다.[Pause=4]
+베그니온에 대해서도, [Pause=2]데인에 대해서도.[A]
+[F_Target=3][ClearBox][FaceCommand=A]그건, [Pause=2]그[FreezeMouth]…[UnfreezeMouth][Pause=3] 나시르[FreezeMouth]…[UnfreezeMouth][A][ClearBox][F_Target=4][LoadPortrait_L=TIBARN][F_Target=4][ClearBox]사자왕[FreezeMouth]![UnfreezeMouth][Pause=4] 엘린시아 공주[FreezeMouth]![UnfreezeMouth][A][ClearBox]재회의 인사를 방해해서 미안하지만,[Pause=2]
+시급히 의논하고 싶은 게 있다.[Pause=4]
+저쪽에 모여 주지 않겠나?[A]
+[Fade=0900][X]
+
+MS_26_ED_04
+
+[Scene=背景会話][LoadBackground=天幕会議用][Trigger][F_Target=0][LoadPortrait_L=CAINEGHIS][F_Target=3][LoadPortrait_L=ERINCIA][F_Target=0][ClearBox][FreezeMouth]…[UnfreezeMouth]여기 있는 자들이 [Pause=2]앞으로의 싸움에 있어
+핵심이 되는 자들임에
+틀림없는가?[A]
+[F_Target=3][ClearBox]그렇습니다.[A]
+[F_Target=0][FaceCommand=D][F_Target=1][LoadPortrait_L=TIBARN][F_Target=1][ClearBox]거기 있는 두 꼬마도?[A]
+[F_Target=3][FaceCommand=D][F_Target=3][LoadPortrait_L=MIST][F_Target=4][LoadPortrait_L=SENERIO][F_Target=4][ClearBox][FreezeMouth]…[UnfreezeMouth][FreezeMouth]![UnfreezeMouth][A]
+[F_Target=3][ClearBox][FreezeMouth]……[UnfreezeMouth]그게[FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=3][FaceCommand=D][F_Target=3][LoadPortrait_L=IKE2][F_Target=3][ClearBox]이쪽은 세네리오.[Pause=4]
+내 참모야.[A]
+[F_Target=4][FaceCommand=D][F_Target=4][LoadPortrait_L=MIST][F_Target=3][ClearBox]그리고 이쪽은 미스트.[Pause=4]
+내 여동생이지.[A][ClearBox]$Ub$H[FreezeMouth]……[UnfreezeMouth]군사 회의를 시작하기 전에[Pause=2]
+모두에게 [Pause=2]말해 두고 싶은 게 있어.[A][ClearBox]그 내용은[FreezeMouth]…[UnfreezeMouth][Pause=4]
+우리 부모님과 크게 관련이 있고.[A][ClearBox]여동생에게는 계속 말하지 않았지만[FreezeMouth]…[UnfreezeMouth][Pause=4]
+이 기회에 말해 두고 싶었어.[A]
+그래서 [Pause=2]이곳에 부른 거야.[A]
+[F_Target=1][ClearBox][FreezeMouth]…[UnfreezeMouth]알았다. [Pause=2]계속해 줘.[A]
+$Ub$H[F_Target=3][ClearBox][FreezeMouth]……[UnfreezeMouth]일의 시작은,[Pause=2]
+엘린시아 공주를 도와[FreezeMouth]…[UnfreezeMouth][Pause=4]
+갈리아 숲에 발을 내딛었을 때인데[FreezeMouth]……[UnfreezeMouth][A]
+[Fade=1000][X]
+
+MS_26_ED_05
+
+[Scene=背景会話][LoadBackground=天幕会議用][Trigger][F_Target=0][LoadPortrait_L=CAINEGHIS][F_Target=1][LoadPortrait_L=TIBARN][F_Target=3][LoadPortrait_L=IKE2][F_Target=4][LoadPortrait_L=MIST][F_Target=3][ClearBox][FaceCommand=c][FreezeMouth]……[UnfreezeMouth]이게[Pause=2]
+내가 알고 있는 전부야[FreezeMouth]…[UnfreezeMouth][A]
+[F_Target=4][ClearBox][FreezeMouth]…[UnfreezeMouth]아[FreezeMouth]…[UnfreezeMouth][Pause=2] 아빠가[FreezeMouth]…[UnfreezeMouth][Pause=4]
+엄마[FreezeMouth]…[UnfreezeMouth][Pause=3]를[FreezeMouth]………[UnfreezeMouth][A]
+[FreezeMouth]……[UnfreezeMouth]말도 안 돼[FreezeMouth]…[UnfreezeMouth][Pause=4] 거짓말이지[FreezeMouth]…?[UnfreezeMouth][A]
+[F_Target=3][ClearBox][FaceCommand=d][F_Target=1][FaceCommand=D][F_Target=0][FaceCommand=D][F_Target=1][LoadPortrait_L=TIAMAT][F_Target=1][ClearBox]미스트[FreezeMouth]…[UnfreezeMouth][Pause=4]
+[FreezeMouth]……[UnfreezeMouth]잠깐 같이 나갈래?[A]
+[F_Target=4][ClearBox][FreezeMouth]……[UnfreezeMouth]아[FreezeMouth]……[UnfreezeMouth][Pause=4]
+아뇨[FreezeMouth]…[UnfreezeMouth][Pause=3] 괜찮아요.[A][ClearBox]괜찮[FreezeMouth]…[UnfreezeMouth][Pause=2]아요.[Pause=4]
+[FreezeMouth]…[UnfreezeMouth]조금 혼란[FreezeMouth]…[UnfreezeMouth][Pause=3]스러웠을 뿐이[FreezeMouth]…[UnfreezeMouth][Pause=2]에요[FreezeMouth]…[UnfreezeMouth][A]
+[F_Target=1][ClearBox][FreezeMouth]……[UnfreezeMouth]미스트[FreezeMouth]…[UnfreezeMouth][A]
+[F_Target=3][ClearBox][FreezeMouth]…………[UnfreezeMouth][A]
+[F_Target=1][FaceCommand=D][F_Target=0][LoadPortrait_L=CAINEGHIS][F_Target=0][ClearBox][FreezeMouth]……[UnfreezeMouth]그렇게 된 것이었을 줄이야[FreezeMouth]………[UnfreezeMouth][A]
+[F_Target=1][LoadPortrait_L=TIBARN][F_Target=1][ClearBox][FreezeMouth]…[UnfreezeMouth]처음부터 [Pause=3]데인과 크리미아만의
+문제가 아니었다는 건가[FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=0][FaceCommand=D][F_Target=1][FaceCommand=D][F_Target=0][LoadPortrait_L=ERINCIA][F_Target=0][ClearBox]데인 왕 아슈나드의[Pause=2]
+진정한 계획이란[FreezeMouth]…[UnfreezeMouth][Pause=4] 대체[FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=1][LoadPortrait_L=CAINEGHIS][F_Target=1][ClearBox]그자는 20년 전[FreezeMouth]…[UnfreezeMouth][Pause=4] 국왕이 되기 전부터
+메달리온의 사신을 해방시킬 계획을
+꾸미고 있었던 것인가[FreezeMouth]……[UnfreezeMouth][A][ClearBox]허나 [Pause=2]그 계획을 그레일과
+에르나에 의해 저지당했던 거군[FreezeMouth]…[UnfreezeMouth][A]
+[F_Target=3][ClearBox][FreezeMouth]…[UnfreezeMouth]사신이라는 건[Pause=2]
+대체 어떤 존재지?[A]
+해방되면 [Pause=2]무슨 일이 일어나는 거야?[A]
+[F_Target=1][ClearBox][FreezeMouth]……[UnfreezeMouth]800년 전과 같은
+천재지변이 일어날지도 모른다.[A][ClearBox]그때는[FreezeMouth]…[UnfreezeMouth][Pause=3] 테리우스 이외의
+모든 대륙이 바다 밑으로 가라앉았지.[A]
+[F_Target=0][ClearBox]그건[FreezeMouth]…[UnfreezeMouth][Pause=3] 사실이었던 건가요?[Pause=4]
+동화인 줄로만 알았는데[FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=1][ClearBox]살아 있는 증거가 있다.[A][ClearBox]고르드아 왕 데긴핸저는 [Pause=3]
+여신, 그리고 다른 두 영웅과 함께[Pause=2]
+사신과 싸운 자니까[FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=0][ClearBox]고르드아 왕이[FreezeMouth]…[UnfreezeMouth][Pause=3] 영웅 중
+한 사람이었던 건가요?[A]
+그리고 지금까지도[FreezeMouth]…[UnfreezeMouth][Pause=2] 살아 계시다니[FreezeMouth]……?[UnfreezeMouth][A]
+[F_Target=1][FaceCommand=D][F_Target=1][LoadPortrait_L=TIBARN][F_Target=1][ClearBox]흑룡왕 데긴핸저는 [Pause=2]
+화석같이 완고한 아저씨다.[A][ClearBox]자주
+『전쟁의 불씨를 퍼뜨려선 안 된다』라던가,[A][ClearBox]『에를란의 메달리온이 있는 한,[Pause=2]
+ 대륙 전체를 휩쓰는 전란을
+ 일으켜서는 안 된다』[Pause=4]라고 말하며[A][ClearBox]우리들을 견제했었지.[A]
+[F_Target=4][FaceCommand=D][F_Target=4][LoadPortrait_L=SENERIO][F_Target=4][ClearBox][FreezeMouth]……[UnfreezeMouth]『전란을 일으켜서는 안 된다』?[Pause=4]
+혹시[FreezeMouth]…[UnfreezeMouth][Pause=3] 사신의 해방은[FreezeMouth]…[UnfreezeMouth][Pause=2]
+주가로만 일어나는 것이 아닌 건가요?[A]
+[F_Target=1][ClearBox][FaceCommand=S]호오[FreezeMouth]…[UnfreezeMouth][Pause=4] 잘 눈치챘는걸.[A][ClearBox]확실히 흑룡왕은 그렇게 말했다.[Pause=4]
+[FaceCommand=A]하지만 [Pause=2]사실인지 아닌지는 알 수 없지.[A][ClearBox]이렇게 전쟁이 일어나고 있는데도[Pause=2]
+사신은 부활하지 않았으니까.[A]
+[F_Target=4][ClearBox][FreezeMouth]……[UnfreezeMouth]데인 왕의 목적이[FreezeMouth]…[UnfreezeMouth][Pause=4]
+무엇인지 알 것 같습니다.[A]
+[F_Target=3][ClearBox]정말이야[FreezeMouth]!?[UnfreezeMouth][A]
+[F_Target=4][ClearBox][FreezeMouth]…[UnfreezeMouth]고르드아 왕은
+『대륙 전체를 휩쓰는 전란』에 의해
+사신이 해방된다고 말하고 있죠.[A][ClearBox]메달리온을 가지고 있지 않아도[Pause=2]
+큰 전쟁을 일으킨다면[Pause=2]
+사신이 해방될 가능성이 있다고요[FreezeMouth]…[UnfreezeMouth][A][ClearBox]그렇다면 [Pause=2]그 사실을[FreezeMouth]…[UnfreezeMouth][Pause=4]
+데인 왕이 알고 있었다면[FreezeMouth]…?[UnfreezeMouth][A][ClearBox]이렇게 생각하지 않았을까요.[Pause=4]
+[FaceCommand=c]사신을 해방시키기 위해 필요한
+전란의 규모는[FreezeMouth]…?[UnfreezeMouth][A][ClearBox][FaceCommand=d]답은 [Pause=2]곧바로 나왔을 겁니다.[Pause=4]
+그런 건 일으켜 보지 않으면 모른다[Pause=2]고요.[A][ClearBox]그래서 우선 [Pause=2]이웃 나라인 크리미아를 공격한 겁니다.[Pause=4]
+베그니온은 너무나도 강대하고[Pause=2]
+제대로 싸운다면 데인이 패배할 테니까요.[A][ClearBox]평소에 힘보다 지혜를 중시하는
+크리미아 왕국을[FreezeMouth]…[UnfreezeMouth][A][ClearBox]급습하면 [Pause=2]데인에 거의 피해를
+입히지 않고 승리할 수 있을 거라고 생각했을 겁니다.[A]
+[FaceCommand=c]크리미아는 적당한 사냥감이었던 거죠.[A]
+[F_Target=0][ClearBox][FreezeMouth]………[UnfreezeMouth][A]
+[F_Target=4][ClearBox][FaceCommand=d]라몬 왕이 친라구즈파라는 것도[FreezeMouth]……[UnfreezeMouth][Pause=4]
+어쩌면 [Pause=2]노림수였을지 모릅니다.[A][ClearBox]잘된다면 [Pause=2]동맹국인 갈리아까지 말려들어서,
+다음 전쟁이 [Pause=2]일어날 수도 있으니까요.[A][ClearBox]대크리미아전, [Pause=2]대갈리아전[FreezeMouth]…[UnfreezeMouth][Pause=4]
+그리고 언젠가 베그니온도[FreezeMouth]……[UnfreezeMouth][A][ClearBox]자국의 힘을 확대해 나가[Pause=2]
+부의 기운을 흩뿌려[FreezeMouth]…[UnfreezeMouth][Pause=4]
+어딘가에 있는 메달리온에 닿도록[FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=3][ClearBox]데인 왕의 목적은 역시[FreezeMouth]…[UnfreezeMouth][Pause=4]
+사신의 해방이라고 [Pause=2]말하고 싶은 거지?[A]
+[F_Target=4][ClearBox]네.[Pause=4]
+적어도 [Pause=2]야망 중 하나인 것은
+확실합니다[FreezeMouth]…[UnfreezeMouth][A]
+[F_Target=1][FaceCommand=D][F_Target=1][LoadPortrait_L=CAINEGHIS][F_Target=1][ClearBox][FreezeMouth]…[UnfreezeMouth]그렇다면 [Pause=2]앞으로 왕도를
+공격하려는 우리들의 계획조차[FreezeMouth]…[UnfreezeMouth][A][ClearBox]놈의 계략 중 하나가 아닌가.[Pause=4]
+사신을 해방시키는 방아쇠가 될지도 모르겠군.[A]
+[F_Target=1][FaceCommand=D][F_Target=1][LoadPortrait_L=TIBARN][F_Target=1][ClearBox][FreezeMouth]…[UnfreezeMouth]그렇다고 해도 [Pause=2]지금 와서
+그만둘 수도 없는 법이지.[A][ClearBox]이 싸움은 이미 돌이킬 수 
+없는 곳까지 와 버렸으니까 말이다.[A]
+[F_Target=3][ClearBox]데인을 무너뜨리지 않는 한[Pause=2]
+그 위협은 사라지지 않아.[A][ClearBox][FreezeMouth]……[UnfreezeMouth]녀석들을 쓰러뜨려서[Pause=2]
+모든 것을 끝내야만 해.[A]
+[F_Target=1][FaceCommand=D][F_Target=1][LoadPortrait_L=CAINEGHIS][F_Target=1][ClearBox]음[FreezeMouth]……[UnfreezeMouth][Pause=4]
+그것 외에는 방법이 없는 듯하군.[A]
+[F_Target=0][FaceCommand=D][F_Target=1][FaceCommand=D][F_Target=1][LoadPortrait_L=RIEUSION][F_Target=1][ClearBox][FaceCommand=c][FreezeMouth]……[UnfreezeMouth]적어도[Pause=2]
+메달리온이 이곳에 있었다면[FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=4][FaceCommand=D][F_Target=4][LoadPortrait_L=TIAMAT][F_Target=4][ClearBox]뭔가 부활을 회피할 만한 수단이 있는 거야?[A]
+[F_Target=1][ClearBox][FaceCommand=d]우리들 에를란의 후예는[FreezeMouth]……[UnfreezeMouth][A][ClearBox]【선잠】의 주가로,[Pause=2]
+메달리온에 봉인된 사신의
+【부】의 기운을[FreezeMouth]…[UnfreezeMouth][Pause=4] 억누를 수 있다.[A][ClearBox]설령 거대한 전쟁이 일어나더라도[FreezeMouth]…[UnfreezeMouth][Pause=4]
+그 방법이라면[FreezeMouth]…[UnfreezeMouth][Pause=4] 아마[FreezeMouth]……[UnfreezeMouth][A]
+$Ub$H[F_Target=4][FaceCommand=D][F_Target=4][FaceCommand=C]L_MISTs|[F_Target=4][ClearBox][FreezeMouth]……[UnfreezeMouth]죄송[FreezeMouth]…[UnfreezeMouth][Pause=4]해요[FreezeMouth]…[UnfreezeMouth][FreezeMouth]![UnfreezeMouth][Pause=4]
+제가 부주의해서[FreezeMouth]………[UnfreezeMouth][Pause=4]
+메달리온을[FreezeMouth]…[UnfreezeMouth][Pause=4] 잃어버려서[FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=3][ClearBox]미스트[FreezeMouth]![UnfreezeMouth][Pause=4]
+네 잘못이 아니라고
+말했잖아.[A]
+[F_Target=4][ClearBox][FaceCommand=h]그치만[FreezeMouth]…[UnfreezeMouth][A]
+[F_Target=1][FaceCommand=D][F_Target=0][FaceCommand=S][F_Target=0][LoadPortrait_L=ERINCIA][F_Target=0][ClearBox][FreezeMouth]…[UnfreezeMouth]미스트가
+부주의해서 일어난 일이 아니야.[A][ClearBox]나, [Pause=2]알고 있어.[Pause=4]
+미스트가 [Pause=2]메달리온을
+늘 몸에 가지고 다녔었다는 걸.[A][ClearBox]엄마의 유품이라고 말하면서,[Pause=2]
+언제나[FreezeMouth]…[UnfreezeMouth][Pause=4] 소중히 다루고 있었잖아?[A][ClearBox][F_Target=4][ClearBox][FaceCommand=c][F_Target=0][ClearBox]그러니까 [Pause=2]미스트한테는
+아무 책임도 없어. [Pause=4]울지 마, [Pause=4]응?[A]
+[F_Target=4][ClearBox][FaceCommand=h][FreezeMouth]…[UnfreezeMouth]엘린시아님[FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=0][FaceCommand=D][F_Target=1][FaceCommand=S][F_Target=1][LoadPortrait_L=LAY][F_Target=1][ClearBox]그래그래. [Pause=4]어디에 있더라도[Pause=2]
+결국 해방될 가능성이 있는 건
+마찬가지고[FreezeMouth]![UnfreezeMouth][A]
+[F_Target=4][ClearBox][FreezeMouth]……[UnfreezeMouth]라이씨[FreezeMouth]…[UnfreezeMouth][A]
+$Ub$H[F_Target=0][LoadPortrait_L=TIBARN][F_Target=0][ClearBox][FreezeMouth]……[UnfreezeMouth]슬슬 [Pause=2]내가 얘기할 차례군.[A]
+뤼시온[FreezeMouth]…[UnfreezeMouth][FreezeMouth]![UnfreezeMouth][A]
+[F_Target=1][FaceCommand=D][F_Target=4][FaceCommand=D][F_Target=4][LoadPortrait_L=RIEUSION][F_Target=4][ClearBox]네.[A]
+[F_Target=0][ClearBox]미안하다[FreezeMouth]…[UnfreezeMouth][FreezeMouth]![UnfreezeMouth][A][F_Target=0][FaceCommand=D]
+[F_Target=4][ClearBox][FreezeMouth]…[UnfreezeMouth][FreezeMouth]!?[UnfreezeMouth][Pause=4]
+대, 대체 무슨 일입니까?[A]
+$Ub$H[F_Target=0][LoadPortrait_L=TIBARN][F_Target=0][ClearBox]리아네가 납치당했다[FreezeMouth]…[UnfreezeMouth][Pause=4]
+아마도[FreezeMouth]…[UnfreezeMouth][Pause=2] 데인 왕이 보낸 놈에게.[A]
+[F_Target=4][ClearBox][FreezeMouth]………[UnfreezeMouth]설[FreezeMouth]…[UnfreezeMouth]마[FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=3][ClearBox]어째서 리아네가 납치당한 거지?[Pause=4]
+【해방】의 주가는[Pause=2],
+오르티나라는 여자밖에 [Pause=2]못 부르는 게 아니었어?[A]
+[F_Target=4][ClearBox][FreezeMouth]……[UnfreezeMouth]하지만 그 사실을[FreezeMouth]……[UnfreezeMouth][Pause=2]
+데인 왕은[FreezeMouth]…[UnfreezeMouth][Pause=2] 모르지[FreezeMouth]………[UnfreezeMouth][FaceCommand=c][A]
+[F_Target=3][ClearBox][FreezeMouth]…[UnfreezeMouth][FreezeMouth]![UnfreezeMouth][A]
+[F_Target=1][LoadPortrait_L=LAY][F_Target=1][ClearBox]곤란한걸[FreezeMouth]……[UnfreezeMouth]
+결국 [Pause=2]이런 지경까지 와 버렸나[FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=0][ClearBox][FaceCommand=c][FreezeMouth]…………[UnfreezeMouth][A]
+[F_Target=3][ClearBox][FreezeMouth]……………[UnfreezeMouth][A]
+[Fade=2000][X]
+
+MS_26_INFO_01
+
+[Scene=背景会話][LoadBackground=天幕-昼][Trigger][F_Target=1][LoadPortrait_L=IKE2][F_Target=3][LoadPortrait_L=BOY][F_Target=3][ClearBox]형들은 지금부터[Pause=3]
+산으로 올라가는 거야?[A][ClearBox]산 위에[FreezeMouth]…[UnfreezeMouth][Pause=3]
+검은 병사들이 잔뜩 있었어.[A][ClearBox]그 녀석들한테[FreezeMouth]…[UnfreezeMouth][Pause=3]
+우리 아빠가[FreezeMouth]……[UnfreezeMouth][Pause=4] 죽었어.[A][ClearBox]그 녀석들이 마을을 불태워서[FreezeMouth]…[UnfreezeMouth][Pause=3]
+산에 도망갔는데[FreezeMouth]…[UnfreezeMouth][Pause=4] 그 녀석들이[FreezeMouth]………[UnfreezeMouth][A][ClearBox]형들이 [Pause=3]그 녀석들을
+해치워 줄 거지?[A][ClearBox]우리 엄마도 [Pause=2]여동생도[Pause=2]
+달리 갈 곳이 없어.[A][ClearBox]아빠가
+산에 세웠던 그 집으로[FreezeMouth]…[UnfreezeMouth][Pause=3] 돌아가고 싶어.[A]
+[F_Target=1][ClearBox][FaceCommand=S]알았어. [Pause=4]우리들이 [Pause=2]빨리
+녀석들을 해치워 줄게.[Pause=4]
+그러니까 조금만 참아. [Pause=4]알겠지?[A]
+[F_Target=3][ClearBox][FaceCommand=S]응.[A][ClearBox][FreezeMouth]…[UnfreezeMouth]맞아[FreezeMouth]![UnfreezeMouth][Pause=4] 그 녀석들,[Pause=2]
+이런 말을 했었어.[A][ClearBox]『일렬로 [Pause=2]올라온다면[Pause=2]
+ 일망타진해 주마』라고[Pause=4]
+분명, [Pause=2]그렇게 말했었어.[A]
+[F_Target=1][ClearBox]그렇구나.[Pause=5]
+무척 도움이 됐어. [Pause=4]고마워.[A]
+[F_Target=3][ClearBox][FaceCommand=S]응[FreezeMouth]![UnfreezeMouth][Pause=4] 힘내.[A][X]
+
+MS_26_INFO_02
+
+[Scene=背景会話][LoadBackground=天幕個人用-昼][Trigger][F_Target=0][LoadPortrait_L=IKE2][F_Target=0][ClearBox]잠깐 [Pause=2]괜찮을까?[A]
+[F_Target=3][FaceCommand=S][F_Target=3][LoadPortrait_L=ULYSSES][F_Target=3][ClearBox]오오, [Pause=2]아이크 장군 아닙니까.[Pause=4]
+제게 [Pause=3]무슨
+용무가 있으신지요?[A]
+[F_Target=0][ClearBox]이렇게 행군하는 
+도중이긴 하지만[FreezeMouth]…[UnfreezeMouth][A][ClearBox]군에 있는 녀석들하고 대화할 시간을[Pause=3]
+되도록 많이 가지고 있거든.[A]
+[F_Target=3][ClearBox]호오. [Pause=4]그것은 좋은 마음가짐이군요.[A][ClearBox]장군 중에는 [Pause=3]병사를 자신이 명령하는 대로[Pause=2]
+저절로 움직이는 꼭두각시라고
+생각하는 자도 있습니다.[A][ClearBox]상황이 좋으면 자신의 공적이라 평하고,[Pause=3]
+나쁘면 병사가 제멋대로 굴었다고 분개하지요.[A][ClearBox]애초에 스스로 [Pause=3]그런 통솔자로서의 역할을
+제대로 잘 해내고 있는지에 대해서는[FreezeMouth]…[UnfreezeMouth][Pause=3]
+저도 상당히 [Pause=2]고민을 하고 있습니다만.[A]
+[F_Target=0][ClearBox][FaceCommand=h][FreezeMouth]……[UnfreezeMouth][A]
+[F_Target=3][ClearBox]장군은 [Pause=3]자신의 발로 직접[Pause=2]
+병사들을 돌아보며 대화를 나누고 계시는군요.[Pause=4]
+훌륭합니다. [Pause=4]실로 훌륭합니다.[A][ClearBox]우리 공주님의 은인이 어떤 분인지[FreezeMouth]…[UnfreezeMouth][Pause=4]
+저희는 [Pause=2]세심하게 주의를 기울이고
+지켜볼 필요가 있어서 말이지요.[A][ClearBox]장군이 [Pause=2]크리미아 왕가의 지위와 영광을 노리는[Pause=3]
+악덕한 자였다면[FreezeMouth]…[UnfreezeMouth][A][ClearBox]비밀리에 처리할 궁리를
+하고 있었습니다만.[A][ClearBox]이거야 원, [Pause=3]이 정도로 쾌남아일 줄은.[Pause=4]
+좋습니다. [Pause=4]실로 좋군요.[A]
+[F_Target=0][ClearBox][FreezeMouth]………[UnfreezeMouth][FaceCommand=c][A]
+[F_Target=3][ClearBox]장군?[A]
+[F_Target=0][ClearBox][FreezeMouth]………[UnfreezeMouth][FaceCommand=o][A][FaceCommand=d]
+미안, [Pause=3]잠깐 졸았나 봐.[Pause=4]
+그래서[FreezeMouth]…[UnfreezeMouth][Pause=4] 꼭두각시가 뭐 어떻다고?[A]
+[F_Target=3][ClearBox][FaceCommand=A][FreezeMouth]……………[UnfreezeMouth]흐음.[Pause=5]
+장군께서는 [Pause=3]자각하지 못하실 정도로
+피로가 쌓인 것 같군요.[A][FaceCommand=S][ClearBox]괜찮으시다면 [Pause=3]
+저의 아늑한 임시 거처에서[FreezeMouth]…[UnfreezeMouth][Pause=4]
+따뜻한 차라도 대접할까 싶습니다만,[A]
+어떻습니까?[A]
+[F_Target=0][ClearBox][FreezeMouth]………[UnfreezeMouth][Pause=2]네 천막에서
+차를 마시자는 뜻이라면[FreezeMouth]…[UnfreezeMouth][Pause=4]
+사양하지 않을게.[A][ClearBox]아마 [Pause=2]또 잘 거 같으니까[Pause=3]
+진한 걸로 부탁해.[A]
+[F_Target=3][ClearBox]그러면 [Pause=3]이쪽으로 와 주시길.[Pause=4]
+할 얘기도 잔뜩 쌓여 있고[FreezeMouth]…[UnfreezeMouth][Pause=3]
+환영합니다.[A][X]
+
+MS_26_INFO_03
+
+[Scene=背景なし会話][F_Target=2][LoadPortrait_L=ANNA][F_Target=2][ClearBox]이 메시지는 삭제되었습니다.[A][X]
+
+MS_26_INFO_04
+
+[Scene=背景なし会話][F_Target=2][LoadPortrait_L=ANNA][F_Target=2][ClearBox]이 메시지는 삭제되었습니다.[A][X]
+
+MS_26_INFO_05_A
+
+$SD[Scene=背景会話][LoadBackground=天幕-昼][Trigger][F_Target=1][LoadPortrait_L=IKE2][F_Target=3][FaceCommand=S][F_Target=3][LoadPortrait_L=LARGO][F_Target=3][ClearBox]오, [Pause=2]잠깐 거기 있는 꼬맹아.[Pause=4]
+이 군의 장군한테 볼일이 있는데[Pause=3]
+전해 주지 않을래?[A]
+[F_Target=1][ClearBox][FreezeMouth]…[UnfreezeMouth]넌 누구지?[A]
+[F_Target=3][ClearBox]난 라르고. [Pause=4]일류 광전사야.[A]
+[F_Target=1][ClearBox]일류 광전사라[FreezeMouth]…[UnfreezeMouth][Pause=4]
+어쩐지 미묘한 직함인걸.[A]
+[F_Target=3][ClearBox]뭐야, [Pause=2]내 실력을 의심하는 거냐?[Pause=4]
+자랑하는 건 아니지만 [Pause=3]난 맨손으로 [Pause=2]
+호랑이를 뒤집을 수도 있다고.[A]
+[F_Target=1][ClearBox][FreezeMouth]………[UnfreezeMouth]미묘해.[A]
+[F_Target=3][ClearBox]속는 셈 치고 일단[Pause=2]
+고용해 봐.[A][ClearBox]보수를 얼마나 줄지는[Pause=3]
+내가 싸우는 모습을 보고 나서[Pause=2]
+정해도 상관없으니까.[A][ClearBox]뭐, [Pause=3]금액에 따라서는[Pause=2]
+내가 거절할 수도 있겠지만.[A]
+[F_Target=1][ClearBox]?[Pause=4]
+어디선가 들어본 적 있는 대사인데.[A]
+어쨌든 [Pause=3]상당히 자신이 있는 것 같은걸.[A]
+[F_Target=3][ClearBox]그러니까 처음부터 말했잖냐.[Pause=4]
+일류 광전사라니까.[A]
+[F_Target=1][ClearBox][FreezeMouth]………[UnfreezeMouth][A]$N$UB$H[X]
+
+MS_26_INFO_05_A_Y
+
+동료로 삼는다[X]
+
+MS_26_INFO_05_A_N
+
+동료로 삼지 않는다[X]
+
+MS_26_INFO_05_A_A
+
+[F_Target=1][ClearBox]알았어. [Pause=4]고용할게.[A]
+[F_Target=3][ClearBox]좋았어[FreezeMouth]![UnfreezeMouth][Pause=4]
+그럼 [Pause=3]장군이 있는 곳까지
+안내해 주는 거지?[A]
+[F_Target=1][ClearBox]그럴 필요는 없어.[Pause=4]
+내가 이 군의 장군이니까.[A]
+[F_Target=3][ClearBox]와하하하하하[FreezeMouth]![UnfreezeMouth][Pause=4]
+이거 참. [Pause=4]유쾌한 꼬맹이인걸.[A][ClearBox]그래서?[Pause=4] 대장은 어디에 있는데?[A]
+[F_Target=1][ClearBox][FreezeMouth]………[UnfreezeMouth][A]
+[F_Target=7][LoadPortrait_S=DUMMY][F_Target=7][ClearBox][F_Target=7][FaceCommand=D]라르고[FreezeMouth]!?[UnfreezeMouth][A]
+[F_Target=1][FaceCommand=D][F_Target=0][LoadPortrait_L=IKE2][F_Target=1][LoadPortrait_L=CALILL][F_Target=3][ClearBox]오오[FreezeMouth]![UnfreezeMouth][Pause=4]
+역시 여기 있었구나, [Pause=2]카릴.[Pause=4]
+건강해 보이는데.[A]
+[F_Target=1][ClearBox][FreezeMouth]…[UnfreezeMouth]날 쫓아온 거야?[A]
+그래도 소용없어.[Pause=4]
+나는 [Pause=2]당분간 
+이 군하고 계약한 몸이니까.[A]
+[F_Target=3][ClearBox]그렇게 말할 줄 알았지,[Pause=3]
+나도 이 군에 들어갈 거야.[A]
+[F_Target=1][ClearBox]그래?[Pause=4]
+정말로 라르고를 고용할 거야?[Pause=2]
+아이크 장군.[A]
+[F_Target=0][ClearBox]어.[A]
+[F_Target=3][ClearBox]뭐야, [Pause=3]이 꼬맹이가 정말로 장군이었다고?[Pause=5]
+와하하하하[FreezeMouth]![UnfreezeMouth][Pause=4]
+이거 참 [Pause=2]실례했구만.[A][ClearBox]착각은 [Pause=3]누구나
+하는 법이니까 [Pause=4]용서해 줘?[A]
+[F_Target=1][ClearBox][FreezeMouth]…[UnfreezeMouth]정말 [Pause=3]제멋대로라니까.[Pause=4][FaceCommand=S]
+그래도 [Pause=2]라르고를 고용하는 건 도움이 될 거야.[Pause=5]
+왜냐하면 일류[FreezeMouth]…[UnfreezeMouth][A]
+[F_Target=0][ClearBox]광전사지?[Pause=4]
+아까 들었어.[A]
+[F_Target=1][ClearBox]호랑이를 맨손으로 뒤집을 수도 있거든.[Pause=4]
+그것도 두 마리 동시에.[A]
+[F_Target=3][ClearBox]와하하하하하[FreezeMouth]![UnfreezeMouth][Pause=4]
+그렇다니까?[A]
+[F_Target=0][ClearBox][FaceCommand=h][FreezeMouth]……[UnfreezeMouth][Pause=3]역시 미묘해.[A][X]
+
+MS_26_INFO_05_A_B
+
+[F_Target=1][ClearBox][FreezeMouth]…[UnfreezeMouth]미안하지만 고용할 순 없어.[Pause=4]
+이 군에 도끼 사용자는 부족하지 않으니까.[A]
+[F_Target=3][ClearBox][FreezeMouth]…[UnfreezeMouth]그래. [Pause=5]나도 남자니까[Pause=4]
+미련 갖지는 않을게.[Pause=4]
+그럼 이만, [Pause=3]잘해 보라고 꼬맹아.[A][ClearBox]인간은 [Pause=3]죽어 버리면
+아무것도 아니니까.[A][F_Target=3][FaceCommand=D]
+[F_Target=1][ClearBox][FreezeMouth]……[UnfreezeMouth]그래[FreezeMouth]…[UnfreezeMouth][A][X]
+
+MS_26_INFO_05_B
+
+[Scene=背景会話][LoadBackground=天幕-昼][Trigger][F_Target=1][LoadPortrait_L=IKE2][F_Target=3][FaceCommand=S][F_Target=3][LoadPortrait_L=LARGO][F_Target=3][ClearBox]오, [Pause=2]잠깐 거기 있는 꼬맹아.[Pause=4]
+이 군의 장군한테 볼일이 있는데[Pause=3]
+전해 주지 않을래?[A]
+[F_Target=1][ClearBox][FreezeMouth]…[UnfreezeMouth]넌 누구지?[A]
+[F_Target=3][ClearBox]난 라르고. [Pause=4]일류 광전사야.[A]
+[F_Target=1][ClearBox]일류 광전사라[FreezeMouth]…[UnfreezeMouth][Pause=4]
+어쩐지 미묘한 직함인걸.[A]
+[F_Target=3][ClearBox]뭐야, [Pause=2]내 실력을 의심하는 거냐?[Pause=4]
+자랑하는 건 아니지만 [Pause=3]난 맨손으로 [Pause=2]
+호랑이를 뒤집을 수도 있다고.[A]
+[F_Target=1][ClearBox][FreezeMouth]………[UnfreezeMouth]미묘해.[A]
+[F_Target=3][ClearBox]속는 셈 치고 일단[Pause=2]
+고용해 봐.[A][ClearBox]보수를 얼마나 줄지는[Pause=3]
+내가 싸우는 모습을 보고 나서[Pause=2]
+정해도 상관없으니까.[A][ClearBox]뭐, [Pause=3]금액에 따라서는[Pause=2]
+내가 거절할 수도 있겠지만.[A]
+[F_Target=1][ClearBox][FreezeMouth]…[UnfreezeMouth]상당히 [Pause=2]자신이 있는 것 같은걸.[A]
+[F_Target=3][ClearBox]그러니까 처음부터 말했잖냐.[Pause=4]
+일류 광전사라니까.[A]
+[F_Target=1][ClearBox][FreezeMouth]…[UnfreezeMouth]미안하지만 고용할 순 없어.[Pause=4]
+이 군에 도끼 사용자는 부족하지 않으니까.[A]
+[F_Target=3][ClearBox][FreezeMouth]…[UnfreezeMouth]그래. [Pause=5]나도 남자니까[Pause=4]
+미련 갖지는 않을게.[Pause=4]
+그럼 이만, [Pause=3]잘해 보라고 꼬맹아.[A][ClearBox]인간은 [Pause=3]죽어 버리면
+아무것도 아니니까.[A][F_Target=3][FaceCommand=D]
+[F_Target=1][ClearBox][FreezeMouth]……[UnfreezeMouth]그래[FreezeMouth]…[UnfreezeMouth][A][X]
+
+MS_INFO_26_01
+
+[Scene=背景なし会話][F_Target=2][LoadPortrait_L=ANNA][F_Target=2][ClearBox]이 메시지는 삭제되었습니다.[A][X]
+
+MS_INFO_26_02A
+
+[Scene=背景なし会話][F_Target=2][LoadPortrait_L=ANNA][F_Target=2][ClearBox]이 메시지는 삭제되었습니다.[A][X]
+
+MS_INFO_26_02B
+
+[Scene=背景なし会話][F_Target=2][LoadPortrait_L=ANNA][F_Target=2][ClearBox]이 메시지는 삭제되었습니다.[A][X]
+
+MS_26_REPO_BEGIN
+
+[Scene=背景会話][LoadBackground=天幕-昼][Trigger][F_Target=1][LoadPortrait_L=SENERIO][F_Target=3][LoadPortrait_L=IKE][F_Target=1][ClearBox]아이크, [Pause=3]지난번 전투의 결과를 보고하겠습니다.[A]$N$UB$H[X]
+
+MS_26_REPO_DIE
+
+[F_Target=3][ClearBox][FaceCommand=c][FreezeMouth]………………[UnfreezeMouth][A][ClearBox]$UB$H[X]
+
+MS_26_REPO_NODIE
+
+[F_Target=1][ClearBox][FaceCommand=S]전사자 및 [Pause=2]회복 불가능한 상처를
+입은 사람은 없었어요.[Pause=4]
+훌륭한 지시였습니다.[A][ClearBox]$UB$H[X]
+
+MS_26_REPO_END
+
+[F_Target=1][ClearBox][FreezeMouth]…[UnfreezeMouth]보고는 이상이에요.[Pause=4]
+그럼, [Pause=2]실례하겠습니다.[A][X]
+

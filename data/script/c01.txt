@@ -1,0 +1,232 @@
+﻿MS_01_OP_01
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='MIST' Pos='0'][S_Target=0]괜찮아?[A]
+[Face='IKE' Pos='1'][S_Target=1]어,[Pause=3] 어어[FreezeMouth]…[UnfreezeMouth][A][X]
+
+MS_01_OP_02
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0]정신이 들었나.[A]
+[Face='MIST' Pos='1'][S_Target=1]정말[FreezeMouth]![UnfreezeMouth][Pause=4]
+아빠, 너무하잖아[FreezeMouth]![UnfreezeMouth][A][ClearBox]아무리 훈련용 무기라지만,[Pause=3]
+진심으로 때리는 게 어딨어.[A]
+[S_Target=0]이 정도도 못 견딘다면 [Pause=3]
+용병으로서 살아갈 수 없다.[A]
+[S_Target=1]그치만[FreezeMouth]![UnfreezeMouth][A]
+[ClearTarget=0][Face='IKE' Pos='0']$Ub$H미스트,[Pause=2] 난 괜찮아.[A]
+[ClearTarget=1][S_Target=1][FaceCommand=S][Face='GREIL' Pos='1']흠,[Pause=2] 그렇게 나와야지.[Pause=5]
+자, 다시 자세를 잡아라[FreezeMouth]![UnfreezeMouth][A]
+[ClearTarget=0][Face='MIST' Pos='0'][S_Target=0]어 [Pause=2]잠깐만,[Pause=3] 계속하려고?[A]
+[ClearTarget=1][Face='IKE' Pos='1'][S_Target=1]한 번이라도[FreezeMouth]…[UnfreezeMouth][Pause=4]
+아버지한테 닿지 않는 이상[Pause=2]
+그만둘 순 없어.[A]
+[ClearTarget=0][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0]좋은 각오다.[Pause=4] 하지만[Pause=2] 지금 이대로라면
+몇 번을 하든 마찬가지[FreezeMouth]…[UnfreezeMouth][Pause=4] 응?[A][X]
+
+MS_01_OP_03_01
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='BOLE' Pos='0'][S_Target=0]오, [Pause=3]훈련 중이시구만.[A][X]
+
+MS_01_OP_03_02
+
+[Scene=上下会話][S_Target=1][FaceCommand=S][Face='MIST' Pos='1'][S_Target=1]어라 [Pause=3]보레, [Pause=3]
+무슨 일이야?[A]
+[S_Target=0][FaceCommand=S][Face='BOLE' Pos='0'][S_Target=0]무슨 일이긴, [Pause=4][A][ClearBox]단장님이랑 아이크를 부르러 간[Pause=2]
+네가 돌아오질 않으니까, [Pause=4]
+부단장이 나한테 보고 오라고 한 거지.[A]
+[S_Target=1]아, 맞다. [Pause=4]
+미안[Pause=2] 미안. [A]
+[S_Target=0]뭐, [Pause=2]단장님한테 죽어라 얻어맞는[Pause=2]
+아이크를 잔뜩 비웃어 주려고 했는데[FreezeMouth]… [UnfreezeMouth][Pause=5]
+의외로 쌩쌩하잖아. [Pause=4]재미없게시리.[A]
+[ClearTarget=1][Face='IKE' Pos='1'][S_Target=1]그것참 미안하게 됐어.[A]
+[ClearTarget=0][S_Target=0][FaceCommand=S][Face='MIST' Pos='0'][S_Target=0]한발 늦은 거야. [Pause=5]
+방금 전까진 [Pause=2]완전히 뻗어 있었거든.[A]
+[S_Target=1]미스트[FreezeMouth]![UnfreezeMouth][A]
+[S_Target=0]에헤헤[FreezeMouth]… [UnfreezeMouth][Pause=2]미안.[A]
+[ClearTarget=1][ClearTarget=0][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0']마침 잘 왔다. [A][ClearBox]보레, [Pause=3]네가 아이크의
+상대를 해라.[A]
+[Face='BOLE' Pos='1'][S_Target=1]네?[Pause=3] 제가요?[A]
+[S_Target=0]실력이 비슷한 놈들끼리 싸워 보는 게 [Pause=2]
+요령을 잡기엔 더 좋은 법이지.[A]
+[ClearTarget=1][Face='IKE' Pos='1'][S_Target=1]알았어.[A]
+[ClearTarget=0][S_Target=1]보레, [Pause=2]잘 부탁해.[A]
+[Face='BOLE' Pos='0'][S_Target=0][FaceCommand=S]헷, [Pause=3]
+실력이 비슷하단 건 마음에 안 들지만 [Pause=2]
+어쩔 수 없지, [Pause=3]상대해 줄게[FreezeMouth]![UnfreezeMouth][A][X]
+
+MS_01_OP_04
+
+[Scene=上下会話][S_Target=1][FaceCommand=S][Face='BOLE' Pos='1'][S_Target=1]자, [Pause=2]어디든지 상관없어[FreezeMouth]![UnfreezeMouth][Pause=5]
+덤벼 봐[FreezeMouth]!![UnfreezeMouth][A][X]
+
+MS_01_EV_01_01
+
+[Scene=上下会話][Face='MIST' Pos='0'][S_Target=0]오빠, [Pause=3]
+그쪽이 아니야[FreezeMouth]![UnfreezeMouth][A][X]
+
+MS_01_EV_01_02
+
+[Scene=上下会話][Face='MIST' Pos='0'][S_Target=0]그러니까, [Pause=3]
+그쪽이 아니라고 했잖아[FreezeMouth]![UnfreezeMouth][A][X]
+
+MS_01_EV_01_03
+
+[Scene=上下会話][Face='MIST' Pos='0'][S_Target=0]아 정말[FreezeMouth]![UnfreezeMouth][Pause=4]
+내가 하는 말 [Pause=3]
+듣고 있는 거야?[A][X]
+
+MS_01_EV_02
+
+[Scene=上下会話][S_Target=1][FaceCommand=S][Face='BOLE' Pos='1'][S_Target=1]어이, [Pause=2]뭐 하고 있는 거야?[Pause=4]
+빨리 덤비라고.[A]
+[Face='IKE' Pos='0'][S_Target=0]지금 간다, [Pause=3]거기서 기다려[FreezeMouth]![UnfreezeMouth][A][X]
+
+MS_01_EV_03_01
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0]보레가 방심했다곤 하지만, [Pause=2]
+지금 움직임은 꽤 괜찮았다. [Pause=5]
+그건 기억해 두거라.[A]
+[Face='IKE' Pos='1'][S_Target=1]알았어.[A]
+[S_Target=0]자, [Pause=2]다음은 다시 [Pause=2]내가 상대다.[A]
+[S_Target=1]바라던 바야[FreezeMouth]![UnfreezeMouth][A]
+[S_Target=0]하지만, 그 전에[FreezeMouth]…[UnfreezeMouth][Pause=3]
+미스트[FreezeMouth]![UnfreezeMouth][A]
+[ClearTarget=1][S_Target=1][FaceCommand=S][Face='MIST' Pos='1'][S_Target=1]네~에.[A][X]
+
+MS_01_EV_03_02
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='MIST' Pos='0'][S_Target=0]자, [Pause=2]오빠[FreezeMouth]![UnfreezeMouth][Pause=4]
+여기 상처약.[A][X]
+
+MS_01_EV_03_03
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='MIST' Pos='0'][S_Target=0]아빠랑 싸우기 전에 [Pause=2]
+제대로 써야 돼.[A][X]
+
+MS_01_EV_03_04
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0]작은 상처라도 [Pause=3]여유가 있을 때 
+치료해야 한다는 걸 잊지 마라. [A][ClearBox]위험하다고 생각하지만[Pause=2]
+이미 늦어 버린[FreezeMouth]…[UnfreezeMouth][Pause=3]
+그런 상황이 오지 않게 말이다.[A][X]
+
+MS_01_EV_04
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0]아이크, [Pause=3]
+이쪽에서 가도록 하마[FreezeMouth]![UnfreezeMouth][A][X]
+
+MS_01_EV_05
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0]호오, [Pause=3]조금은 버텨 냈나.[A]
+[Face='IKE' Pos='1'][FreezeMouth]……[UnfreezeMouth][A][X]
+
+MS_01_EV_07_01_01
+
+[Scene=上下会話][S_Target=1][FaceCommand=S][Face='BOLE' Pos='1'][S_Target=1]빨리 덤비라고. [Pause=4]
+아니면, [Pause=2]내가 무서운 거냐?[A][X]
+
+MS_01_EV_07_01_02
+
+[Scene=上下会話][Face='BOLE' Pos='1'][S_Target=1]어이어이, [Pause=2]뭐 하고 있는 거야? [Pause=4]
+제대로 [Pause=2]할 마음은 있어?[A][X]
+
+MS_01_EV_07_01_03
+
+[Scene=上下会話][S_Target=1][FaceCommand=h][Face='BOLE' Pos='1'][S_Target=1]흐아암[FreezeMouth]… [UnfreezeMouth][Pause=5]
+왠지 [Pause=2]졸음이 오는데.[A][X]
+
+MS_01_EV_07_02
+
+[Scene=上下会話][S_Target=1][FaceCommand=S][Face='BOLE' Pos='1'][S_Target=1]헤헤[Pause=3] 싸움은 이제 막 [Pause=2]
+시작했을 뿐이라고[FreezeMouth]![UnfreezeMouth][A][X]
+
+MS_01_EV_07_03
+
+[Scene=上下会話][Face='BOLE' Pos='1'][S_Target=1]우왁[FreezeMouth]![UnfreezeMouth][Pause=4] [FreezeMouth]…[UnfreezeMouth]영차. [Pause=5]
+갑자기 뭐 하는 짓이야[FreezeMouth]![UnfreezeMouth][Pause=3]
+그러고 있을 때가 아니잖아?[A][X]
+
+MS_01_EV_08_01
+
+[Scene=上下会話][Face='MIST' Pos='0'][S_Target=0]앗[FreezeMouth]!![UnfreezeMouth][A][X]
+
+MS_01_EV_08_02
+
+[Scene=上下会話][Face='MIST' Pos='0'][S_Target=0]믿기질 않아[FreezeMouth]![UnfreezeMouth][Pause=4]
+무기를 버리면 [Pause=2]싸울 수 없잖아.[A][ClearBox]영차[FreezeMouth]…[UnfreezeMouth][Pause=3][FaceCommand=S]
+여기[FreezeMouth]![UnfreezeMouth][Pause=4] 오빠의 검.[A]
+[Face='IKE' Pos='1'][S_Target=1]어어[FreezeMouth]…[UnfreezeMouth][Pause=2] 미안.[A]
+[S_Target=0][FaceCommand=S][Face='MIST' Pos='0'][S_Target=0]앞으로는 조심해.[A][X]
+
+MS_01_BT_BOlE
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='MIST' Pos='0'][S_Target=0]힘내~[FreezeMouth]![UnfreezeMouth][Pause=4]
+보레 따위는 [Pause=2]해치워 버려[FreezeMouth]![UnfreezeMouth][A]
+[Face='BOLE' Pos='1'][S_Target=1]『따위』가 뭐냐, [Pause=5]
+『따위』가.[A][X]
+
+MDIE_BOLE_MAP1
+
+[Scene=上下会話][S_Target=1][FaceCommand=S][Face='BOLE' Pos='1'][S_Target=1]제, [Pause=2]제법인데.[A]
+[S_Target=0][FaceCommand=S][Face='MIST' Pos='0'][S_Target=0]보레 [Pause=2]
+꼴사납다~ 우우.[A]
+[S_Target=1][FaceCommand=A]시끄러워[FreezeMouth]![UnfreezeMouth][A]
+[ClearTarget=0][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0]보레, 고생 많았다. [Pause=4]
+그걸로 됐다.[A]
+[S_Target=1]아, [Pause=2]네[FreezeMouth]![UnfreezeMouth][A][X]
+
+MS_01_BT
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0]전력으로 덤벼라[FreezeMouth]![UnfreezeMouth][A][X]
+
+MDIE_GREIL_MAP1
+
+[Scene=上下会話][Face='GREIL' Pos='0'][S_Target=0][FreezeMouth]…[UnfreezeMouth]음[FreezeMouth]![UnfreezeMouth][A][X]
+
+MDIE_IKE_MAP1
+
+[Scene=上下会話][Face='IKE' Pos='0'][S_Target=0]큭[FreezeMouth]…[UnfreezeMouth][Pause=2] 아직, 할 수 있어[FreezeMouth]…[UnfreezeMouth][A]
+[Face='MIST' Pos='1'][S_Target=1]오빠[FreezeMouth]![UnfreezeMouth][Pause=3] 무리하지 마[FreezeMouth]!![UnfreezeMouth][A]
+[ClearTarget=1][Face='GREIL' Pos='1'][S_Target=1]이 정도 훈련에도 못 견딜 줄은[FreezeMouth]…[UnfreezeMouth][Pause=4]
+아이크, [Pause=2]네가 전장에 나가는 것은 [Pause=2]
+아직 이른 일이다.[A]
+[S_Target=0][FreezeMouth]……[UnfreezeMouth][A][X]
+
+MS_01_ED_01
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='MIST' Pos='0'][S_Target=0]오빠, [Pause=2]굉장해[FreezeMouth]![UnfreezeMouth][A]
+[Face='IKE' Pos='1'][S_Target=1][FreezeMouth]…[UnfreezeMouth]아버지, [Pause=4]진심으로 한 게 아니었지?[A]
+[S_Target=0][FaceCommand=A]엇, [Pause=2]그런 거야?[A]
+[ClearTarget=0][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0][FreezeMouth]…[UnfreezeMouth]그걸 눈치챘다는 건, [Pause=3]
+너도 [Pause=2]조금은 성장했다는 뜻이다.[A][X]
+
+MS_01_ED_02
+
+[Scene=背景なし会話][F_Target=0][FaceCommand=S][F_Target=0][LoadPortrait_L=GREIL][F_Target=3][FaceCommand=S][F_Target=3][LoadPortrait_L=MIST][F_Target=4][LoadPortrait_L=IKE][F_Target=1][FaceCommand=S][F_Target=1][LoadPortrait_L=BOLE][F_Target=1][ClearBox]그래그래, [Pause=2]나도 
+사실 진심이 아니었다니까[FreezeMouth]…[UnfreezeMouth][A]
+[F_Target=3][ClearBox]그거 거짓말이지.[A]
+[F_Target=1][ClearBox]칫[A]
+[F_Target=4][ClearBox][FreezeMouth]…[UnfreezeMouth]그럼, [Pause=2]나도 [Pause=2]이제 한 사람 몫을 
+할 수 있다고 인정해 주는 거겠지?[A]
+[F_Target=0][ClearBox]일에 나가고 싶다는 소리냐?[A]
+[F_Target=4][ClearBox]그래. [Pause=4]보레도 이미 
+전장에 나가고 있으니까. [Pause=4]
+나도 슬슬 [Pause=2]견습에서 졸업하고 싶어.[A]
+[F_Target=1][ClearBox]나는 그야 [Pause=2]너랑 다르게 [Pause=2]
+충분히 실력이 있으니까.[A]
+[F_Target=3][ClearBox]방금 [Pause=2]져 버린 주제에~[A]
+[F_Target=1][ClearBox]그건 우연이라고.[Pause=4]
+우·[Pause=2]연.[A]
+[F_Target=0][ClearBox]그런가[FreezeMouth]… [UnfreezeMouth][Pause=3]뭐 괜찮겠지.[Pause=4]
+너도 내일부터 용병단에 참가해라.[A]
+[F_Target=4][ClearBox][FaceCommand=S]정말로[FreezeMouth]!?[UnfreezeMouth][A]
+[F_Target=0][ClearBox]단, 무리인 것 같으면 [Pause=2]
+바로 훈련으로 되돌릴 거다.[Pause=4]
+열심히 노력하도록.[A]
+[F_Target=4][ClearBox]물론이지.[Pause=4]
+금방[FreezeMouth]… [UnfreezeMouth][Pause=2]모두를 뒤쫓아가 주겠어.[A]
+[F_Target=0][ClearBox]과연 어떨까. [Pause=5]
+자, 슬슬 요새로 돌아가지.[Pause=3]
+모두가 기다리고 있을 거다.[A]
+[Fade=1000][X]
+
