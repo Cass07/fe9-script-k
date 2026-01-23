@@ -45,8 +45,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link active" href="main.html">메인 스토리</a></li>
-                <li class="nav-item"><a class="nav-link" href="conv.html">지원회화</a></li>
+                <li class="nav-item"><a class="nav-link" href="main.html">메인 스토리</a></li>
+                <li class="nav-item"><a class="nav-link active" href="conv.html">지원회화</a></li>
             </ul>
         </div>
     </div>
@@ -62,13 +62,6 @@
 <div class="container">
     <br>
     <br>
-    <div class="row input-row">
-        <div class="col-md-12">
-            <label for="scriptDropdown">스크립트</label>
-            <select class="select_class" id="scriptDropdown" style="width : 100%;">
-            </select>
-        </div>
-    </div>
     <div class="row">
         <div class="col">
             <table id="table"
@@ -94,35 +87,18 @@
 </body>
 </html>
 
-<script src="parser.js"></script>
+<script src="parser_yell.js"></script>
 
 <script>
-    const scriptJsonDir = "data/dict/main.json";
-    const scriptDir = "data/script/";
+    const scriptDir = "data/script";
 
     const $table = $('#table');
-    const $scriptDropdown = $("#scriptDropdown");
 
     $(document).ready(function () {
         $table.bootstrapTable();
 
-        const dataReadPriomise = $.get('data/script/c01.txt', function (fileData) {
-        }, 'text');
+        updateTable("yell");
 
-        const scriptJsonPromise = $.ajax({
-            url: scriptJsonDir,
-            dataType: 'json'
-        });
-
-        Promise.all([scriptJsonPromise]).then(([scriptJsonData]) => {
-            $scriptDropdown.select2({
-                data: scriptJsonData,
-                placeholder: "스크립트 파일",
-                width: 'element',
-            });
-
-            updateTable(scriptJsonData[0].id);
-        });
     });
 
     function updateTable(scriptFileName) {
