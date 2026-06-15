@@ -179,6 +179,7 @@
             "MELTY" : "신사 친위대원",
             "MERCHANT" : "상인",
             "MIST" : "미스트",
+            "MISTs" : "미스트",
             "MISTER1" : "아저씨",
             "MISTER2" : "아저씨",
             "MISTER3" : "아저씨",
